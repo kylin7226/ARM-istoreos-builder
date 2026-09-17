@@ -6,7 +6,7 @@ on:
       openwrt_board:
         description: "请选择设备型号（默认当前常见设备）"
         required: true
-        default: "cm3588-nas"
+        default: "cyber3588-aib"
         type: choice
         options:
           - a311d
@@ -28,6 +28,7 @@ on:
           - chainedbox
           - cm3588-nas
           - crrc
+          - cyber3588-aib
           - dc-a588
           - dg3399
           - dg-nas-lite
